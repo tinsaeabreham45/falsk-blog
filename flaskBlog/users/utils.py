@@ -21,7 +21,7 @@ def save_picture(from_picture):
 def send_reset_email(user):
     token = user.get_reset_token()
     msg = Message('Password rest request',
-                  sender='noreply@demo.com',
+                  sender='tinsaep777@gmail.com',
                   recipients=[user.email])
 
     msg.body = f''' To reset your password visit the following link:
